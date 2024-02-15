@@ -935,10 +935,6 @@ video {
   max-width: 450px;
 }
 
-.max-w-\[\] {
-  max-width: ;
-}
-
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -1471,10 +1467,6 @@ video {
 
 .gap-\[40px\] {
   gap: 40px;
-}
-
-.gap-5 {
-  gap: 1.25rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2141,6 +2133,10 @@ video {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .px-3 {
@@ -3165,6 +3161,10 @@ video {
 
   .max-sm\:w-full {
     width: 100%;
+  }
+
+  .max-sm\:gap-5 {
+    gap: 1.25rem;
   }
 
   .max-sm\:border-none {
