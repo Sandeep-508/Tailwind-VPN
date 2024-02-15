@@ -5,6 +5,10 @@
 /* npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+/* * {
+    outline: 1px solid red;
+} */
+
 /* working slick slider */
 
 /* body {
@@ -130,6 +134,12 @@
     overflow: visible;
     padding: 0 20% 0 0;
     position: relative;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .slick-dots {
+        width: 44%;
+    }
 }
 
 .slick-list::after {

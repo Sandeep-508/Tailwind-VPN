@@ -2743,6 +2743,10 @@ video {
 
 /* npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch */
 
+/* * {
+    outline: 1px solid red;
+} */
+
 /* working slick slider */
 
 /* body {
@@ -2867,6 +2871,12 @@ video {
   overflow: visible;
   padding: 0 20% 0 0;
   position: relative;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .slick-dots {
+    width: 44%;
+  }
 }
 
 .slick-list::after {
