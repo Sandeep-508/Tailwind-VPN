@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* working slick slider */
+
+/* body {
+    overflow-x: hidden;
+} */
+
+.slick-dots {
+    display: flex !important;
+}
+
+/* .slick-slider {
+    left: 7% !important;
+} */
+
+.slick-dots li {
+    width: 70px !important;
+    height: 7px !important;
+}
+
+.slick-dots li.slick-active:before {
+    width: 75px !important;
+    height: 25px !important;
+    border-radius: 25px !important;
+    background-color: #f53838 !important;
+    z-index: 1;
+}
+
+.slick-slide {
+    margin: 0 27px;
+}
+
+.slick-list {
+    margin: 0 -27px;
+}
+
+.slick-dots li:before {
+    width: 25px !important;
+    height: 25px !important;
+    border-radius: 25px !important;
+    background-color: #DDE0E4 !important;
+}
+
+.slick-slide {
+    margin: 10px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -30px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li:before {
+    top: 1px;
+    transition: all 0.5s;
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+.slick-dots li.slick-active:before {
+    top: 0;
+    width: 8px;
+    height: 8px;
+    margin-left: -2px;
+    background-color: #f53838;
+}
+
+.slick-arrow,
+.slick-hidden {
+    display: unset !important;
+}
+
+/* .slick-slide {
+    width: 700px !important;
+} */
+
+.carousel {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.slick-list {
+    padding: 0 !important;
+}
+
+/* .slick-slider {
+    left: 10% !important;
+} */
+
+
+.over-slider {
+    z-index: 2;
+}
+
+.slick-track {
+    left: 44% !important;
+}
+
+.slick-list {
+    overflow: visible;
+    padding: 0 20% 0 0;
+    position: relative;
+}
+
+.slick-list::after {
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 4000px;
+    right: 90%;
+    background-color: white;
+}
+
+/* .slick-dots {
+    position: unset !important;
+    justify-content: center !important;
+} */
+
+
+@media (min-width: 1024px) {
+    .slick-dots {
+        max-width: 44%;
+    }
+}
+
+@media (max-width: 768px) {
+    .slick-dots {
+        bottom: -100px !important;
+    }
+
+    .slick-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
