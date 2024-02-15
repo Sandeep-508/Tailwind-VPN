@@ -867,16 +867,16 @@ video {
   height: 19px;
 }
 
-.h-\[250px\] {
-  height: 250px;
-}
-
 .h-\[3px\] {
   height: 3px;
 }
 
 .h-full {
   height: 100%;
+}
+
+.min-h-\[250px\] {
+  min-height: 250px;
 }
 
 .w-1\/2 {
@@ -2896,6 +2896,12 @@ video {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .slick-dots {
+    left: 9% !important;
   }
 }
 

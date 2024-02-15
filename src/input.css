@@ -165,3 +165,9 @@
         justify-content: center;
     }
 }
+
+@media (min-width: 768px) {
+    .slick-dots {
+        left: 9% !important;
+    }
+}
