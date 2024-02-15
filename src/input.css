@@ -32,6 +32,12 @@
     z-index: 1;
 }
 
+@media (max-width: 576px) {
+    .slick-dots li.slick-active:before {
+        width: 50px !important;
+    }
+}
+
 .slick-slide {
     margin: 0 27px;
 }
