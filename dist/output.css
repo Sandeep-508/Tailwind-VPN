@@ -1003,6 +1003,10 @@ video {
   transform: none;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .touch-auto {
   touch-action: auto;
 }
@@ -2102,10 +2106,6 @@ video {
   background-origin: content-box;
 }
 
-.stroke-\[1px\] {
-  stroke-width: 1px;
-}
-
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -2184,6 +2184,11 @@ video {
 .py-\[50px\] {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .pt-\[150px\] {
@@ -2983,16 +2988,8 @@ video {
   background-color: rgb(245 56 56 / var(--tw-bg-opacity));
 }
 
-.hover\:stroke-\[1px\]:hover {
-  stroke-width: 1px;
-}
-
 .hover\:font-bold:hover {
   font-weight: 700;
-}
-
-.hover\:font-extrabold:hover {
-  font-weight: 800;
 }
 
 .hover\:text-\[\#FF3500\]:hover {
@@ -3025,6 +3022,12 @@ video {
 .hover\:shadow-\[5px_5px_30px_10px_\#F53838\]:hover {
   --tw-shadow: 5px 5px 30px 10px #F53838;
   --tw-shadow-colored: 5px 5px 30px 10px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.hover\:shadow-\[0px_5px_18px_10px_\#F5383859\]:hover {
+  --tw-shadow: 0px 5px 18px 10px #F5383859;
+  --tw-shadow-colored: 0px 5px 18px 10px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
