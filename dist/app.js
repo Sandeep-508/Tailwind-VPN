@@ -1,12 +1,12 @@
 $(document).ready(function () {
     $('.carousel').slick({
-        speed: 500,
+        // speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
+        // autoplay: true,
         prevArrow: '.prev',
         nextArrow: '.next',
-        autoplaySpeed: 2000,
+        // autoplaySpeed: 2000,
         dots: true,
         centerMode: true,
         responsive: [{
